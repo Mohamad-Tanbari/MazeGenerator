@@ -1,4 +1,9 @@
 name: MazeGenerator
-version: '${project.version}'
+version: 1.0
+description: Generates mazes in Minecraft
+author: gperm
 main: me.gperm.mazegenerator.MazeGenerator
-api-version: 1.19
+commands:
+  test:
+    description: Displays a message in chat
+    usage: /test
