@@ -1,17 +1,14 @@
-package me.gperm.mazegenerator;
+package me.gperm.mazegenerator
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPlugin
 
-public final class MazeGenerator extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
+class MazeGenerator : JavaPlugin() {
+    override fun onEnable() {
         // Plugin startup logic
-
+        logger.info("Hello, World!")
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }
