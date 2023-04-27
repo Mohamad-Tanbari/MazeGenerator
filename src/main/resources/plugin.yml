@@ -1,0 +1,4 @@
+name: MazeGenerator
+version: '${project.version}'
+main: me.gperm.mazegenerator.MazeGenerator
+api-version: 1.19
